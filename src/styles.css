@@ -1,0 +1,19 @@
+:root {
+  --azul: rgb(25, 118, 210);
+  --azul-fundo: #e3f2fd;
+}
+
+body {
+  background-color: var(--azul-fundo);
+  font-size: 62.5%;
+  font-family: Roboto;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+a {
+  color: var(--azul);
+}
